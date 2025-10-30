@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>login</h1>
+    <form action="/user/login" method="post">
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+        
+        <button type="submit">login</button>
+    </form>
+
+    <div style="display: flex; align-items: center; gap: 8px;">
+        <p>Do not have account at? </p>
+        <button>
+            <a href="/signup" style="text-decoration: none; color: inherit;">Signup</a>
+        </button>
+    </div>
+    
+</body>
+</html>
